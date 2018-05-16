@@ -1,0 +1,53 @@
+<!doctype HTML>
+<html lang="PT-BR">
+  <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Homepage Mackenzie Project</title>
+  <meta name="author" content="Thiago\Vinicius">
+
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <a href="index.html"><img src="img/russia.png" alt="Bandeira da Rússia"></a>
+      </figure>
+
+      <nav>
+        <ul> 
+          <li><a href="redesSociais/redesSociais.html">Redes Sociais</a></li>
+          <li> <a href ="seguranca/seguranca.html">Segurança</a></li>
+          <li> <a href="tecnologia/tecnologia.html">Tecnologia</a></li>
+          <li><a href ="cadastro.html">Cadastre-se</a></li>
+          <li> <a href ="about/about.html">About</a></li>
+        </ul>      
+      </nav>
+    </header>
+
+    <fieldset>
+      <legend>Faça seu cadastro:</legend>
+      <form id = "ContactForm">
+        <label for="Nome">Nome:</label> <input type="text" name="Nome" id="Nome" placeholder="Insira seu nome" required="" value=""/>  
+        <br><br>
+        <label for="Senha">Senha:</label><input type="password" name="Senha" id="Senha" placeholder="Defina sua senha" required="" value=""/> 
+        <br><br>
+        <label for="ConfirmarSenha">Confirme Senha:</label><input type="password" name="Senha" id="ConfirmarSenha" placeholder="Confirme sua senha" required="" value=""/> 
+        <br><br>
+        <label for="Email">Email:</label><input type="email" name="Email" id="Email" placeholder="Insira seu Email" required="" value=""/>
+        <br><br>
+        Sexo: <label for="SexoMasculino"></label><input type="radio" name="sexo" id="SexoMasculino"/> Masculino
+        <label for="SexoFeminino"></label><input type="radio" name="sexo" id="SexoFeminino"/> Feminino
+        <br><br>
+        <label for="Enviar"></label><input type="submit" id="Enviar" value="Enviar"/>
+        <label for="ApagarDados"></label><input type="reset" id="ApagarDados" value="Apagar dados"/>
+
+      </form>
+    </fieldset>
+    <footer>
+      <h5>Rodapé</h5>
+      <p><a href="about/about.html">Sobre nós</a></p>
+    </footer>
+  </body>
+</html>
+
