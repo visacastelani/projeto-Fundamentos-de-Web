@@ -1,0 +1,7 @@
+.noticia{
+	display:flex;
+	justify-content:center;
+}
+.noticia article p{
+	flex-direction: column;
+}

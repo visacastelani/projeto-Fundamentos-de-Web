@@ -1,10 +1,21 @@
+/* EDITA OS ARTIGOS DENTRO DAS NOTICIAS*/
+.noticia{
+	display:flex;
+	justify-content:center;
+}
 
-/* IMAGENS */
+/* EDITA OS ARTIGOS DENTRO DAS NOTICIAS*/
+
+
+/* <IMAGENS> */
+header figure img{
+	width:100%;
+}
 head{
 	margin:5%;
 }
 figure img{
-	width:80%;}
+	width:100%;}
 
 header figure{
 	display:flex;
@@ -13,12 +24,13 @@ header figure{
 	margin-left:40%;
 }
 
-/* IMAGENS */
+/* </IMAGENS> */
 
 /* colocando o menu em ordem*/
 ul{
 	display:flex;
 	justify-content:space-around;
+	background-color:red;
 
 }
 
@@ -73,16 +85,32 @@ footer a{
 
 h1{
 	text-align: center;
+	background-color:red;
 }
+
+
 
 @media screen and (max-width:700px){
-figure{
-	display:none;
-}
+
 
 }
 
-@media screen and (max-width:600px){
+
+
+/* 
+	COMO CENTRALIZAR O ARTIGO?
+	COMO COLOCAR IMG AO LADO DO P (EM ROW?)
+*/
+@media screen and (max-width:480px){
+	.noticia{
+	display:flex;
+	justify-content:center;
+}
+
+.noticia article{
+	background-color:red;
+	flex-direction:row;
+}
 	ul{
 		display:flex;
 		flex-direction:column;
@@ -97,6 +125,8 @@ figure{
 		justify-content:center;
 	}
 	section article{
+		flex-wrap:nowrap;
 		justify-content:center;
 	}
+/* COMO CENTRALIZAR O ARTIGO?*/
 }
